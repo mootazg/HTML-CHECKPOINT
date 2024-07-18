@@ -1,0 +1,60 @@
+
+li{
+    color: rgb(255, 255, 255);
+    display: inline;
+}
+a{
+    height: 30px;
+    margin: 0px 80px;
+    border: 2px solid rgb(90, 105, 105);
+    padding: 10px;
+    background-color: rgb(162, 122, 196);
+}
+header{
+    text-align: center;
+    background-color: rgb(200, 212, 212);
+}
+span{
+    text-decoration: underline black;
+    color: darkblue;
+}
+#about{
+    padding: 5px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#trailer{
+    margin-top: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#cast{
+    padding: 5px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+#contact{
+    padding: 5px;
+    border: 2px solid black;
+}
+dt{
+    text-decoration: underline blue;
+    color: darkblue;
+    font-weight: bold;
+}
+
+h1{
+    text-decoration: underline red;
+    color: red;
+    text-align: center;
+}
+label{
+    color: darkblue;
+    text-decoration: underline darkblue
+}
+body{
+    background-color: rgb(241, 228, 247);
+}
+    

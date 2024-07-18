@@ -1,57 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Breaking Bad</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#trailer">Trailer</a>
-            <a href="#cast">Cast</a>
-            <a href="#contact">Contact</a>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#trailer">Trailer</a></li>
+          <li><a href="#cast">Cast</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section id="about">
-        <h1>About</h1>
-        <p><span><b>Breaking Bad</b></span> is an American crime drama television series created and produced by Vince Gilligan for AMC. Set and filmed in Albuquerque, New Mexico.</p>
+      <h1>About</h1>
+      <p>
+        <span><b>Breaking Bad</b></span> is an American crime drama television
+        series created and produced by Vince Gilligan for AMC. Set and filmed in
+        Albuquerque, New Mexico.
+      </p>
     </section>
 
     <article id="trailer">
-        <h1>Trailer</h1>
-        <p>Here is a trailer of the 1st season</p>
-        <iframe src="https://www.youtube.com/embed/HhesaQXLuRY" frameborder="0"></iframe>
+      <h1>Trailer</h1>
+      <p>Here is a trailer of the 1st season</p>
+      <iframe
+        src="https://www.youtube.com/embed/HhesaQXLuRY"
+        frameborder="0"
+      ></iframe>
     </article>
 
     <section id="cast">
-        <h1>Cast</h1>
-        <p>Main characters:</p>
-        <dl>
-            <dt>Walter White</dt>
-            <dd>The anti-hero of Breaking Bad who went from a basic chemistry teacher to a drug empire owner.</dd>
-        </dl>
-        <dl>
-            <dt>Jesse Pinkman</dt>
-            <dd>He is a crystal meth cook and dealer who works with his former high school chemistry teacher, Walter White.</dd>
-        </dl>
-        <dl>
-            <dt>Saul Goodman</dt>
-            <dd>Saul Goodman is a lawyer based in Albuquerque, New Mexico.</dd>
-        </dl>
-        <dl>
-            <dt>Gustavo Fring aka Gus</dt>
-            <dd>Gus is a Chilean-American restaurant entrepreneur and major narcotics distributor who primarily worked in Albuquerque, New Mexico. Originally collaborating with the Mexican drug cartel to distribute cartel cocaine.</dd>
-        </dl>
+      <h1>Cast</h1>
+      <h3>Main characters:</h3>
+      <dl>
+        <dt>Walter White</dt>
+        <dd>
+          The anti-hero of Breaking Bad who went from a basic chemistry teacher
+          to a drug empire owner.
+        </dd>
+      </dl>
+      <dl>
+        <dt>Jesse Pinkman</dt>
+        <dd>
+          He is a crystal meth cook and dealer who works with his former high
+          school chemistry teacher, Walter White.
+        </dd>
+      </dl>
+      <dl>
+        <dt>Saul Goodman</dt>
+        <dd>Saul Goodman is a lawyer based in Albuquerque, New Mexico.</dd>
+      </dl>
+      <dl>
+        <dt>Gustavo Fring aka Gus</dt>
+        <dd>
+          Gus is a Chilean-American restaurant entrepreneur and major narcotics
+          distributor who primarily worked in Albuquerque, New Mexico.
+          Originally collaborating with the Mexican drug cartel to distribute
+          cartel cocaine.
+        </dd>
+      </dl>
     </section>
 
     <footer id="contact">
-        <h1>Contact Us</h1>
-        <p>For more information, send us an email on ; brba2007@gmail.com</p>
-    </footer>
+      <h1>Contact Us</h1>
+      <p>For more information, send us an email on ; brba2007@gmail.com</p>
+      <form>
+        <label>Name:</label>
+        <input
+          type="text"
+          name="first name"
+          placeholder="Type your name here"
+        />
+        <br />
 
-</body>
+        <label>Number:</label>
+        <input type="number" name="number" value="23123456" />
+        <br />
+
+        <label>Birth Date:</label>
+        <input type="date" name="birthday" />
+        <br />
+
+        <label>Password:</label>
+        <input type="password" name="password" />
+        <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </footer>
+  </body>
 </html>
